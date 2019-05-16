@@ -1,7 +1,7 @@
 # Ionic-Vue
 
 
-## This is a remake of content from the first page of https://www.reddit.com/r/pics made through Ionic-Vue an app development platform
+## This is a basic remake of content from the first page of https://www.reddit.com/r/pics made through Ionic-Vue an app development platform and Axios a promise based HTTP client
 
 
 # *Technologies Used* #
@@ -15,10 +15,16 @@
 * Axios
 * Vue CLI
 
+# Screenshots #
+
+![Screenshot](RedditPics.PNG)
+![Screenshot](RedditDetails.PNG)
+
+
 ## *Known Issues & Bugs* ## 
 
 * Any current issues with Ionic Vue 
-* Some thumbnail pictures are N/A
+* Some posts do not contain a thumbnail image
 
 ## Project setup
 ```
