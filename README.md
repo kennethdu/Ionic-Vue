@@ -1,7 +1,7 @@
-## Ionic-Vue
+# Ionic-Vue
 
 
-## This is a remake of http://wwww.reddit.com/r/pics made through Ionic-Vue an app development platform
+## This is a remake of content from the first page of https://www.reddit.com/r/pics made through Ionic-Vue an app development platform
 
 
 # *Technologies Used* #
@@ -10,6 +10,7 @@
 * Javascript
 * CSS
 * Ionic-Vue
+* Ionic-Core
 * HTML
 * Axios
 * Vue CLI
@@ -17,6 +18,7 @@
 ## *Known Issues & Bugs* ## 
 
 * Any current issues with Ionic Vue 
+* Some thumbnail pictures are N/A
 
 ## Project setup
 ```

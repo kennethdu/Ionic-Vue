@@ -8,7 +8,8 @@
     <ion-list>
       <ion-item v-for="post in posts" :key="post.data.id" @click="handleClick(post.data.preview.images[0].source.url)">
         <img :src="post.data.thumbnail" alt="thumb" class="thumbnail">
-        <ion-label>{{ post.data.title }}</ion-label>
+        <ion-label text-wrap>{{ post.data.title }}</ion-label>
+        <ion-label text-wrap>User: {{ post.data.author }}</ion-label>
       </ion-item>
     </ion-list>
 
@@ -32,9 +33,7 @@ export default {
   },
   data() {
     return {
-      posts: [],
-      myInput: ''
-    }
+      posts: []    }
   },
   methods: {
     handleClick(imageSrc) {
