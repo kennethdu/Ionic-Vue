@@ -5,14 +5,16 @@
         <ion-title>Image</ion-title>
       </ion-toolbar>
     </ion-header>
-    <ion-img :src="imageSrc"></ion-img>
-    <ion-button @click="$router.go(-1)">Back</ion-button>
+    <ion-card>
+      <ion-img :src="imageSrc"></ion-img>
+      <ion-button @click="$router.go(-1)">Back</ion-button>
+    </ion-card>
   </div>
 </template>
 
 <script>
 export default {
-  props: ['imageSrc']
-}
+  props: ["imageSrc"]
+};
 </script>
 

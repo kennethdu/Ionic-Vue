@@ -5,17 +5,18 @@
         <ion-title>Reddit Clone /r/pics</ion-title>
       </ion-toolbar>
     </ion-header>
-    <ion-list>
-      <ion-item
+    <!-- <ion-list> -->
+      <ion-card
         v-for="post in posts"
         :key="post.data.id"
         @click="handleClick(post.data.preview.images[0].source.url)"
       >
         <img :src="post.data.thumbnail" alt="thumb" class="thumbnail">
-        <ion-label text-wrap>{{ post.data.title }}</ion-label>
-        <ion-label text-wrap>User: {{ post.data.author }}</ion-label>
-      </ion-item>
-    </ion-list>
+        <h2 text-wrap id="title">{{ post.data.title }}</h2>
+        <ion-card-subtitle text-wrap>User: {{ post.data.author }}</ion-card-subtitle>
+
+      </ion-card>
+    <!-- </ion-list> -->
   </div>
 </template>
 
@@ -51,11 +52,16 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .thumbnail {
-  width: 60px;
-  height: 60px;
+  width: 90px;
+  height: 90px;
   border-radius: 30px;
-  margin-right: 16px;
   margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline;
+}
+
+#title {
+  text-align: center;
   margin-bottom: 10px;
 }
 </style>

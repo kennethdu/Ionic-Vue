@@ -17,7 +17,8 @@
 
 # Screenshots #
 
-![Screenshot](RedditPics.PNG)
+![Screenshot](IonicReddit.PNG)
+![Screenshot](Reddit.PNG)
 ![Screenshot](RedditDetails.PNG)
 
 
