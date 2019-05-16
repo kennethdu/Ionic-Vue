@@ -17,9 +17,9 @@
 
 # Screenshots #
 
-![Screenshot](IonicReddit.PNG)
-![Screenshot](Reddit.PNG)
-![Screenshot](RedditDetails.PNG)
+## ![Screenshot](IonicReddit.PNG)
+## ![Screenshot](Reddit.PNG)
+## ![Screenshot](RedditDetails.PNG)
 
 
 ## *Known Issues & Bugs* ## 
