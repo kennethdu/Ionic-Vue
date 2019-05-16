@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+        <img alt="r/pics logo" src="https://styles.redditmedia.com/t5_2qh0u/styles/bannerPositionedImage_ssrvude96kzz.png">
+
     <div id="nav">
     </div>
     <router-view/>
