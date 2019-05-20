@@ -3,23 +3,27 @@
 
 ## This is a basic remake of content from the first page of https://www.reddit.com/r/pics made through Ionic-Vue an app development platform and Axios a promise based HTTP client
 
+### Demo Link: https://ionic-vue-reddit.netlify.com/
+
+#### View in mobile platform through inspect tool through your browser of choice
+
 
 # *Technologies Used* #
 
-* Vue.js
 * Javascript
-* CSS
 * Ionic-Vue
 * Ionic-Core
-* HTML
+* Vue.js
 * Axios
 * Vue CLI
+* HTML
+* CSS
 
 # Screenshots #
 
-## ![Screenshot](IonicReddit.PNG)
-## ![Screenshot](Reddit.PNG)
-## ![Screenshot](RedditDetails.PNG)
+# ![Screenshot](IonicReddit.PNG)
+# ![Screenshot](Reddit.PNG)
+# ![Screenshot](RedditDetails.PNG)
 
 
 ## *Known Issues & Bugs* ## 
